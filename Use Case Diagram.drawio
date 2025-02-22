@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16" pages="6">
   <diagram id="W3e4ES3mdgn2HJ1Og5lF" name="use diagramm">
     <mxGraphModel dx="4273" dy="1910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -615,11 +615,209 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="PNON3BMXekoIxrpYvUe6" name="Page-5">
-    <mxGraphModel dx="1282" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="PNON3BMXekoIxrpYvUe6" name="seq 1">
+    <mxGraphModel dx="1477" dy="1603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eJIc6_pUyZOwD8OgMNcC-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="260" width="930" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="eJIc6_pUyZOwD8OgMNcC-2" value="&lt;span style=&quot;box-sizing: border-box; font-weight: bolder; color: rgb(36, 36, 36); font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web (West European)&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); border-radius: 0px !important;&quot;&gt;Online Food Delivery Service&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eJIc6_pUyZOwD8OgMNcC-22" value="&lt;h3 style=&quot;font-weight: var(--ds-font-weight-strong); font-size: calc(var(--ds-md-zoom)*16px); line-height: 1.5; margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; color: rgb(64, 64, 64); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;strong&gt;Bestillingsprosess&lt;/strong&gt;&lt;/h3&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=120;height=30;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="890" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="eJIc6_pUyZOwD8OgMNcC-23" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="340" y="440" width="20" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="eJIc6_pUyZOwD8OgMNcC-24" value="Systemet" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="eJIc6_pUyZOwD8OgMNcC-25" value="Betalingstjeneste" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="740" y="440" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="eJIc6_pUyZOwD8OgMNcC-26" value="Restaurant" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="950" y="440" width="100" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="eJIc6_pUyZOwD8OgMNcC-27" value="log inn" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.003" width="80" relative="1" as="geometry">
+            <mxPoint x="348.83333333333326" y="540" as="sourcePoint" />
+            <mxPoint x="569.5" y="540" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJIc6_pUyZOwD8OgMNcC-29" value="Bla gjennom restauranter og menyer" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.003" width="80" relative="1" as="geometry">
+            <mxPoint x="348.83333333333326" y="585" as="sourcePoint" />
+            <mxPoint x="569.5" y="585" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJIc6_pUyZOwD8OgMNcC-30" value="Velg måltid og legg i handlekurven" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.003" width="80" relative="1" as="geometry">
+            <mxPoint x="350.0033333333333" y="640" as="sourcePoint" />
+            <mxPoint x="570.67" y="640" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJIc6_pUyZOwD8OgMNcC-32" value="Bekreft ordre" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.003" width="80" relative="1" as="geometry">
+            <mxPoint x="350.0033333333333" y="710" as="sourcePoint" />
+            <mxPoint x="570.67" y="710" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJIc6_pUyZOwD8OgMNcC-33" value="Behandle betaling" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.003" width="80" relative="1" as="geometry">
+            <mxPoint x="570.0033333333333" y="770" as="sourcePoint" />
+            <mxPoint x="790.67" y="770" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJIc6_pUyZOwD8OgMNcC-34" value="Betalingsbekreftelse" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789.5" y="830" as="sourcePoint" />
+            <mxPoint x="568.8333333333333" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJIc6_pUyZOwD8OgMNcC-36" value="ordrebekreftelse" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="569.5" y="980" as="sourcePoint" />
+            <mxPoint x="348.83333333333326" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJIc6_pUyZOwD8OgMNcC-37" value="Varsle om ny bestilling" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="eJIc6_pUyZOwD8OgMNcC-24">
+          <mxGeometry x="-0.003" width="80" relative="1" as="geometry">
+            <mxPoint x="780.0033333333333" y="920" as="sourcePoint" />
+            <mxPoint x="1000.67" y="920" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IN_xpjHIrdlFd1Fgikzh-3" value="user" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nssm2zwI9GFur0x6EpY6" name="seq2">
+    <mxGraphModel dx="574" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="230" width="930" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-2" value="&lt;span style=&quot;box-sizing: border-box; font-weight: bolder; color: rgb(36, 36, 36); font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web (West European)&amp;quot;, -apple-system, BlinkMacSystemFont, Roboto, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); border-radius: 0px !important;&quot;&gt;Online Food Delivery Service&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-3" value="&lt;h3 style=&quot;line-height: 1.5; margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; color: rgb(64, 64, 64); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; background-position: 0px 100%; background-repeat: repeat-x; background-image: var(--urlSpellingErrorV2,url(&amp;quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjQiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggc3Ryb2tlPSIjRUIwMDAwIiBkPSJNMCAzYzEuMjUgMCAxLjI1LTIgMi41LTJTMy43NSAzIDUgMyIvPjxwYXRoIGQ9Ik0wIDBoNXY0SDB6Ii8+PC9nPjwvc3ZnPg==&amp;quot;)); border-bottom: 1px solid transparent; color: rgb(0, 0, 0); font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; font-variant-ligatures: none; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot; class=&quot;NormalTextRun SpellingErrorV2Themed SCXW79107319 BCX8&quot;&gt;Oppdatering&lt;/span&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; color: rgb(0, 0, 0); font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; font-variant-ligatures: none; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot; class=&quot;NormalTextRun SCXW79107319 BCX8&quot;&gt; &lt;/span&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; background-position: 0px 100%; background-repeat: repeat-x; background-image: var(--urlSpellingErrorV2,url(&amp;quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjQiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggc3Ryb2tlPSIjRUIwMDAwIiBkPSJNMCAzYzEuMjUgMCAxLjI1LTIgMi41LTJTMy43NSAzIDUgMyIvPjxwYXRoIGQ9Ik0wIDBoNXY0SDB6Ii8+PC9nPjwvc3ZnPg==&amp;quot;)); border-bottom: 1px solid transparent; color: rgb(0, 0, 0); font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; font-variant-ligatures: none; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot; class=&quot;NormalTextRun SpellingErrorV2Themed SCXW79107319 BCX8&quot;&gt;av&lt;/span&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; color: rgb(0, 0, 0); font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; font-variant-ligatures: none; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot; class=&quot;NormalTextRun SCXW79107319 BCX8&quot;&gt; &lt;/span&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; background-color: var(--clrSpellingErrorHighlightBg,#ffe5e5); color: rgb(0, 0, 0); background-position: 0px 100%; background-repeat: repeat-x; background-image: var(--urlSpellingErrorV2,url(&amp;quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjQiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggc3Ryb2tlPSIjRUIwMDAwIiBkPSJNMCAzYzEuMjUgMCAxLjI1LTIgMi41LTJTMy43NSAzIDUgMyIvPjxwYXRoIGQ9Ik0wIDBoNXY0SDB6Ii8+PC9nPjwvc3ZnPg==&amp;quot;)); border-bottom: 1px solid transparent; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; font-variant-ligatures: none; white-space-collapse: preserve;&quot; class=&quot;NormalTextRun SpellingErrorV2Themed SpellingErrorHighlight SCXW79107319 BCX8&quot;&gt;leveringsstatus&lt;/span&gt;&lt;/font&gt;&lt;/h3&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=40;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="890" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-4" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="340" y="440" width="20" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-5" value="Systemet" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-6" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="740" y="440" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-7" value="Restaurant" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="950" y="440" width="100" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-8" value="log inn" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.003" width="80" relative="1" as="geometry">
+            <mxPoint x="348.83333333333326" y="540" as="sourcePoint" />
+            <mxPoint x="569.5" y="540" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-9" value="be om leveringsoppgave" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.003" width="80" relative="1" as="geometry">
+            <mxPoint x="348.83333333333326" y="585" as="sourcePoint" />
+            <mxPoint x="569.5" y="585" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-10" value="tildel leveringsoppgave" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.003" width="80" relative="1" as="geometry">
+            <mxPoint x="350.0033333333333" y="640" as="sourcePoint" />
+            <mxPoint x="570.67" y="640" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-11" value="oppdater status til &quot;hentet&quot;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0052" width="80" relative="1" as="geometry">
+            <mxPoint x="350.0033333333333" y="690" as="sourcePoint" />
+            <mxPoint x="570.67" y="690" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-12" value="Oppdater leveringsstatus" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.003" width="80" relative="1" as="geometry">
+            <mxPoint x="570.0033333333333" y="720" as="sourcePoint" />
+            <mxPoint x="790.67" y="720" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-13" value="Bekreft statusoppdatering" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789.5" y="759.09" as="sourcePoint" />
+            <mxPoint x="568.8333333333333" y="759.09" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-16" value="oppdater status til &quot;Ute for levering&quot;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0052" width="80" relative="1" as="geometry">
+            <mxPoint x="350.0033333333333" y="810" as="sourcePoint" />
+            <mxPoint x="570.67" y="810" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-17" value="Bekreft statusoppdatering" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790.67" y="880" as="sourcePoint" />
+            <mxPoint x="570.0033333333332" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-18" value="Oppdater leveringsstatus" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.003" width="80" relative="1" as="geometry">
+            <mxPoint x="570.0033333333333" y="850" as="sourcePoint" />
+            <mxPoint x="790.67" y="850" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-19" value="oppdater status til &quot;levert&quot;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0052" width="80" relative="1" as="geometry">
+            <mxPoint x="350.0033333333333" y="920" as="sourcePoint" />
+            <mxPoint x="570.67" y="920" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-20" value="Oppdater leveringsstatus" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.003" width="80" relative="1" as="geometry">
+            <mxPoint x="570.0033333333333" y="950" as="sourcePoint" />
+            <mxPoint x="790.67" y="950" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-21" value="Bekreft statusoppdatering" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790.67" y="990" as="sourcePoint" />
+            <mxPoint x="570.0033333333332" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-22" value="varsel leveringsstatusoppdatering" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="Iaq21jTmjOeQEbJOXZxB-7">
+          <mxGeometry x="-0.003" width="80" relative="1" as="geometry">
+            <mxPoint x="570.0033333333333" y="1040" as="sourcePoint" />
+            <mxPoint x="790.67" y="1040" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iaq21jTmjOeQEbJOXZxB-25" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;accent-color: auto; place-content: normal; place-items: normal; place-self: auto; alignment-baseline: auto; anchor-name: none; anchor-scope: none; animation: 0s ease 0s 1 normal none running none; animation-composition: replace; app-region: none; appearance: none; aspect-ratio: auto; backdrop-filter: none; backface-visibility: visible; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); background-blend-mode: normal; baseline-shift: 0px; baseline-source: auto; border-image: none 100% / 1 / 0 stretch; border-color: rgb(0, 0, 0); border-collapse: separate; border-end-end-radius: 0px; border-end-start-radius: 0px; border-width: 0px; border-style: none; border-spacing: 0px; border-start-end-radius: 0px; border-start-start-radius: 0px; border-radius: 0px; inset: auto; box-decoration-break: slice; box-shadow: none; box-sizing: content-box; break-after: auto; break-before: auto; break-inside: auto; buffered-rendering: auto; caption-side: top; caret-color: rgb(0, 0, 0); clear: none; clip: auto; clip-path: none; clip-rule: nonzero; color: rgb(0, 0, 0); color-interpolation: srgb; color-interpolation-filters: linearrgb; color-rendering: auto; color-scheme: normal; columns: auto; column-fill: balance; gap: normal; column-rule: 0px rgb(0, 0, 0); column-span: none; contain: none; contain-intrinsic-block-size: none; contain-intrinsic-size: none; contain-intrinsic-inline-size: none; container: none; content: normal; content-visibility: visible; counter-increment: none; counter-reset: none; counter-set: none; cursor: text; cx: 0px; cy: 0px; d: none; direction: ltr; display: inline; dominant-baseline: auto; empty-cells: show; field-sizing: fixed; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; filter: none; flex: 0 1 auto; flex-flow: row; float: none; flood-color: rgb(0, 0, 0); flood-opacity: 1; font-family: WordVisi_MSFontService, Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; font-feature-settings: normal; font-kerning: none; font-optical-sizing: auto; font-palette: normal; font-size-adjust: none; font-stretch: 100%; font-style: normal; font-synthesis: weight style small-caps; font-variant: none; font-variation-settings: normal; font-weight: 400; forced-color-adjust: auto; grid-area: auto; grid: none; height: auto; hyphenate-character: auto; hyphenate-limit-chars: auto; hyphens: manual; image-orientation: from-image; image-rendering: auto; initial-letter: normal; inline-size: auto; inset-block: auto; inset-inline: auto; interpolate-size: numeric-only; isolation: auto; letter-spacing: normal; lighting-color: rgb(255, 255, 255); line-break: auto; line-height: 20.925px; list-style: outside none disc; margin: 0px; marker: none; mask: none; mask-type: luminance; math-depth: 0; math-shift: normal; math-style: normal; max-height: none; max-width: none; min-height: 0px; min-width: 0px; mix-blend-mode: normal; object-fit: fill; object-position: 50% 50%; object-view-box: none; offset: normal; opacity: 1; order: 0; orphans: 2; outline: rgb(0, 0, 0) none 0px; outline-offset: 0px; overflow: visible; overflow-anchor: auto; overflow-clip-margin: 0px; overflow-wrap: break-word; overlay: none; overscroll-behavior-block: auto; overscroll-behavior-inline: auto; overscroll-behavior: auto; padding: 0px; page: auto; paint-order: normal; perspective: none; perspective-origin: 0px 0px; pointer-events: auto; position: static; position-anchor: auto; position-area: none; position-try: none; position-visibility: always; quotes: auto; r: 0px; resize: none; rotate: none; ruby-align: space-around; ruby-position: over; rx: auto; ry: auto; scale: none; scroll-behavior: auto; scroll-initial-target: none; scroll-margin-block: 0px; scroll-margin: 0px; scroll-margin-inline: 0px; scroll-padding-block: auto; scroll-padding: auto; scroll-padding-inline: auto; scroll-snap-align: none; scroll-snap-stop: normal; scroll-snap-type: none; scroll-timeline: none; scrollbar-color: auto; scrollbar-gutter: auto; scrollbar-width: auto; shape-image-threshold: 0; shape-margin: 0px; shape-outside: none; shape-rendering: auto; speak: normal; stop-color: rgb(0, 0, 0); stop-opacity: 1; stroke: none; stroke-dasharray: none; stroke-dashoffset: 0px; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 1px; tab-size: 8; table-layout: auto; text-align: left; text-align-last: auto; text-anchor: start; text-box: normal; text-combine-upright: none; text-decoration: none solid rgb(0, 0, 0); text-decoration-skip-ink: auto; text-emphasis: none rgb(0, 0, 0); text-emphasis-position: over; text-indent: 0px; text-orientation: mixed; text-overflow: clip; text-rendering: auto; text-shadow: none; text-size-adjust: auto; text-spacing-trim: normal; text-transform: none; text-underline-offset: auto; text-underline-position: auto; text-wrap: wrap; timeline-scope: none; touch-action: auto; transform: none; transform-box: view-box; transform-origin: 0px 0px; transform-style: flat; transition: all; translate: none; unicode-bidi: normal; user-select: text; vector-effect: none; vertical-align: baseline; view-timeline: none; view-transition-class: none; view-transition-name: none; visibility: visible; border-block-end: 0px none rgb(0, 0, 0); border-block-start: 0px none rgb(0, 0, 0); border-inline-end: 0px none rgb(0, 0, 0); -webkit-border-image: none; border-inline-start: 0px none rgb(0, 0, 0); -webkit-box-align: stretch; -webkit-box-decoration-break: slice; -webkit-box-direction: normal; -webkit-box-flex: 0; -webkit-box-ordinal-group: 1; -webkit-box-orient: horizontal; -webkit-box-pack: start; -webkit-font-smoothing: auto; -webkit-line-break: auto; -webkit-line-clamp: none; -webkit-locale: &amp;quot;en-GB&amp;quot;; block-size: auto; margin-block: 0px; margin-inline: 0px; -webkit-mask-box-image-source: none; -webkit-mask-box-image-slice: 0 fill; -webkit-mask-box-image-width: auto; -webkit-mask-box-image-outset: 0; -webkit-mask-box-image-repeat: stretch; max-block-size: none; max-inline-size: none; min-block-size: 0px; min-inline-size: 0px; padding-block: 0px; padding-inline: 0px; -webkit-print-color-adjust: economy; -webkit-rtl-ordering: logical; -webkit-ruby-position: before; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-text-combine: none; -webkit-text-decorations-in-effect: none; -webkit-text-fill-color: rgb(0, 0, 0); -webkit-text-orientation: vertical-right; -webkit-text-security: none; -webkit-text-stroke: 0px rgb(0, 0, 0); -webkit-user-drag: none; -webkit-user-modify: read-only; -webkit-writing-mode: horizontal-tb; white-space-collapse: preserve; widows: 2; width: auto; will-change: auto; word-break: normal; word-spacing: 0px; writing-mode: horizontal-tb; x: 0px; y: 0px; z-index: auto; zoom: 1;&quot; class=&quot;TextRun SCXW138938093 BCX8&quot; lang=&quot;EN-GB&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SpellingErrorV2Themed SCXW138938093 BCX8&quot;&gt;leveringspersonell&lt;/span&gt;&lt;/span&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
